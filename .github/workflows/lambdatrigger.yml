@@ -70,7 +70,7 @@ jobs:
         id: plan_report
         run: |
           mkdir -p reports
-          echo "#Deployment Report" > reports/report.txt
+          echo "Deployment Report" > reports/report.txt
           echo "This file was generated during the github actions workflow run." >> reports/report.txt
           echo "" >> reports/report.txt
           echo "## Terraform Plan Output" >> reports/report.txt
